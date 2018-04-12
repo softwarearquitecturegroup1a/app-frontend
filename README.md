@@ -1,3 +1,10 @@
+En este repo contiene la configuracion de la aplicacion movil para BiciUn, las carpetas Public/ y src/ contienen las vistas posiblemente adaptadas a react-native y estilos usados en las mismas, ahora toca empezar a arreglarlas bien y que todo funcione.
+
+Recuerden que la usaremos con Expo, asi que corran "npm install" - "npm start" y se supone que deberia funcionar :v
+
+y como dice esto cuando se instala... Happy Hacking!
+
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
