@@ -2,6 +2,16 @@ En este repo contiene la configuracion de la aplicacion movil para BiciUn, las c
 
 Recuerden que la usaremos con Expo, asi que corran "npm install" - "npm start" y se supone que deberia funcionar :v
 
+Si al hacer start les muestra error
+
+Hagan npm bugs <nombre de la carpeta>
+ 
+ eso les dira cual es el error PERO! fijense al inicio, tal vez diga que ejecuten dos comandos con sudo
+ >> sudo sysctl ....
+ >> sudo sysctl ....
+ 
+ Los ejecutan y listo, deberia solucionarse
+
 y como dice esto cuando se instala... Happy Hacking!
 
 
