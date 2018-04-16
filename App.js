@@ -7,7 +7,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Text>Hola!</Text>
         <Text>Es hora de iniciar con la app de BiciUn.</Text>
-        <Text>Let's go!.</Text>
+        <Text>¡Vamos a ello!.</Text>
       </View>
     );
   }
