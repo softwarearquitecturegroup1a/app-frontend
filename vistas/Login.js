@@ -1,17 +1,35 @@
 import React, { Component } from 'react';
-import {Text, Button, View} from 'react-native';
+import {Text, TextInput, Button, View} from 'react-native';
 import {styles} from '../styles';
 
-export default class DetailsScreen extends Component {
+export default class Login extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      user: '',
+      identification: '',
+      userError: '',
+      identificationError: '',
+    }
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text>Details Screen</Text>
+
+        <Text style={{fontSize: 27}}>
+          Login
+        </Text>
+        <TextInput style={{height: 40}} placeholder='Username' placeholderTextColor='white' />
+        <TextInput style={{height: 40}} placeholder='Password' placeholderTextColor='#fff' />  
+        
+        
         <Button
-          title="Go to Details Again"
+          title="Iniciar Sesión"
           onPress={() => this.props.navigation.navigate('Home')}
         />
       </View>
+      
     );
   }
 }
