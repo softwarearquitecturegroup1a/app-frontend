@@ -3,12 +3,17 @@ import { StyleSheet } from 'react-native';
 var em = (n) => n * 35;
 
 export const styles = StyleSheet.create({
+  
   container: {
     flex: 1,
+    // flexDirection: 'row',
+    // height: 100,
+    // padding: 20,
     backgroundColor: '#3ba3b9',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
   },
+
   header: {
     backgroundColor: '#2c3e50',
     alignItems: 'center',
@@ -58,20 +63,35 @@ export const styles = StyleSheet.create({
     marginLeft: em(0),
     marginRight: em(0),
     fontWeight: '500'
+  },
+
+  p: {
+    fontSize: em(0.6),
+    paddingBottom: em(1),
+  },
+
+  btn: {
+    
   }
+
 });
 
 export const home = StyleSheet.create({
   title: {
-    color: '#FFFFFF'
+    marginTop: em(-2),
+    color: '#FFFFFF',
   },
-
+  
   image: {
-    marginTop: em(0.1),
-    marginBottom: em(0.1),
-    marginLeft: em(0),
-    marginRight: em(0),
+    justifyContent: 'center',
+    marginTop: em(-3.5),
     scaleX: 0.5,
     scaleY: 0.5
+  },
+  
+  eslogan: {
+    color: '#FFFFFF',
+    textAlign: 'center',
+    justifyContent: 'center',
   }
 });

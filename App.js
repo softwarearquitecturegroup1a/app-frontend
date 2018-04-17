@@ -14,4 +14,15 @@ export default RootStack = StackNavigator({
     },
   },{
     initialRouteName: 'Home',
+    /* The header config from HomeScreen is now here */
+    navigationOptions: {
+      headerStyle: {
+        backgroundColor: '#2c3e50',
+        color: '#FFFFFF',
+      },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'bold',
+      },
+    },
 });
