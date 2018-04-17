@@ -1,16 +1,21 @@
 import React from 'react';
 import { Button, Text, View } from 'react-native';
 import { StackNavigator } from 'react-navigation';
-import DetailsScreen from './vistas/Request'
-import HomeScreen from './vistas/HomeScreen'
+import DetailsScreen from './vistas/Request';
+import HomeScreen from './vistas/HomeScreen';
 
 import Login from './vistas/Login'
+
+
 export default RootStack = StackNavigator({
     Home: {
-      screen: Login,
+      screen: HomeScreen,
+    },
+    Login: {
+      screen: Login
     },
     Details: {
-      screen: HomeScreen,
+      screen: DetailsScreen,
     },
   },{
     initialRouteName: 'Home',

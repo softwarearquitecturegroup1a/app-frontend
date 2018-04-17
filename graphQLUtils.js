@@ -14,7 +14,7 @@ export default function GraphQLRequest(requestText, handleResponse, handleError)
 
   axios({
     headers: { 'Content-Type': 'application/json' },
-    url: "http://localhost:5000/graphql",
+    url: "http://35.227.88.166/graphql",
     method: "POST",
     data: GQl,
     responseType: 'json'
@@ -25,5 +25,8 @@ export default function GraphQLRequest(requestText, handleResponse, handleError)
   }).catch(function (error){
     if (error.response && handleError)
       handleError(error.response.status, error.response.data.errors);
+    else{
+      console.log(error);
+    }
   });
 };

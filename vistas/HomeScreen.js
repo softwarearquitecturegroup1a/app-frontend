@@ -25,7 +25,7 @@ export default class HomeScreen extends React.Component {
         <Button
           color='#50bd9c'
           title="Empezar"
-          onPress={() => this.props.navigation.navigate('Details')}
+          onPress={() => this.props.navigation.navigate('Login')}
           />
       </View>
     );

@@ -66,13 +66,12 @@ export const styles = StyleSheet.create({
   },
 
   p: {
+    color: '#fff',
     fontSize: em(0.6),
     paddingBottom: em(1),
   },
 
-  btn: {
-    
-  }
+
 
 });
 
