@@ -11,7 +11,7 @@ import Profile from './vistas/Profile'
 
 export default RootStack = StackNavigator({
     Home: {
-      screen: Profile,
+      screen: Historial,
     },
     Details: {
       screen: HomeScreen,
