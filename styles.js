@@ -95,3 +95,14 @@ export const home = StyleSheet.create({
     justifyContent: 'center',
   }
 });
+
+export const historial = StyleSheet.create({
+  h5: {
+    fontSize: em(1),
+    marginTop: em(0.5),
+    marginBottom: em(0.5),
+    marginLeft: em(0),
+    marginRight: em(0),
+    fontWeight: '500'
+  }
+});

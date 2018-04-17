@@ -20,8 +20,8 @@ export default class Login extends Component {
         <Text style={{fontSize: 27}}>
           Login
         </Text>
-        <TextInput style={{height: 40}} placeholder='Username' placeholderTextColor='white' />
-        <TextInput style={{height: 40}} placeholder='Password' placeholderTextColor='#fff' />  
+        <TextInput placeholder='Username' placeholderTextColor='white' />
+        <TextInput placeholder='Password' placeholderTextColor='#fff' />  
         
         
         <Button

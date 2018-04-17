@@ -5,9 +5,13 @@ import DetailsScreen from './vistas/Request'
 import HomeScreen from './vistas/HomeScreen'
 
 import Login from './vistas/Login'
+import Historial from './vistas/Historial'
+import Profile from './vistas/Profile'
+
+
 export default RootStack = StackNavigator({
     Home: {
-      screen: Login,
+      screen: Profile,
     },
     Details: {
       screen: HomeScreen,
