@@ -58,6 +58,15 @@ export const styles = StyleSheet.create({
     marginLeft: em(0),
     marginRight: em(0),
     fontWeight: '500'
+  },
+
+  h6: {
+    fontSize: em(0.0),
+    marginTop: em(0.5),
+    marginBottom: em(0.5),
+    marginLeft: em(0),
+    marginRight: em(0),
+    fontWeight: '500'
   }
 });
 
@@ -73,5 +82,16 @@ export const home = StyleSheet.create({
     marginRight: em(0),
     scaleX: 0.5,
     scaleY: 0.5
+  }
+});
+
+export const historial = StyleSheet.create({
+  h5: {
+    fontSize: em(1),
+    marginTop: em(0.5),
+    marginBottom: em(0.5),
+    marginLeft: em(0),
+    marginRight: em(0),
+    fontWeight: '500'
   }
 });
