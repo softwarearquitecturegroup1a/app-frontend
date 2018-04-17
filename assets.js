@@ -1,0 +1,1 @@
+export const biciunLogo = require('./assets/bike-white.png');
