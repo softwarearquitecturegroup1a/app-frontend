@@ -18,18 +18,15 @@ export default class Profile extends Component {
           BiciUN - Perfil
         </Text>
         
-        <Image source={icono_profile} style={home.image} />
-        <Text style={styles.h4}>Nombre:</Text>
+        <Image source={icono_profile} />
+
+        <Text style={styles.p}>Nombre:</Text>
               
     
-        <Text style={styles.h4}>Apellido:</Text>
+        <Text style={styles.p}>Apellido:</Text>
 
-        <Text style={styles.h4}>Documento:</Text>
+        <Text style={styles.p}>Documento:</Text>
         
-        <Button
-          title="Iniciar Sesión"
-          onPress={() => this.props.navigation.navigate('Home')}
-        />
       </View>
       
     );
