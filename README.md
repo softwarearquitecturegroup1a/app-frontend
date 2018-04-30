@@ -7,8 +7,7 @@ Si al hacer start les muestra error
 Hagan npm bugs <nombre de la carpeta>
  
  eso les dira cual es el error PERO! fijense al inicio, tal vez diga que ejecuten dos comandos con sudo
- >> sudo sysctl ....
- >> sudo sysctl ....
+ >> sudo sysctl -w fs.inotify.max_user_instances=1024 && sudo sysctl-w fs.inotify.max_user_watches=12288
  
  Los ejecutan y listo, deberia solucionarse
 
